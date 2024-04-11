@@ -2,10 +2,10 @@
 
 :root{
     --branco: white;
-    --cor-de-fundo: #00162E;
+    --cor-de-fundo: ##19443e;
     --fundo-senha: #00244D;
-    --fundo-texto: #001E40;
-    --borda: #0075FF;
+    --fundo-texto: ##001E40;
+    --borda: ##00ff6a;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
 }
@@ -71,8 +71,8 @@ body{
     font-size: 28px;
 }
 
-.parametro-senha__senha{
-    font-size: 24px;
+.parametro-senha__titulo{
+    font-size:24px;
 }
 
 .parametro-coluna__senha{
@@ -80,7 +80,6 @@ body{
     flex-direction: column;
     justify-content: center;
 }
-
 .parametro-senha{
     width: 50%;
     margin: 0 auto;
@@ -99,7 +98,6 @@ body{
     font-size: 24px;
     cursor: pointer;
 }
-
 .parametro-senha__texto{
     padding: 24px;
     border-top: 2px solid var(--borda);
@@ -123,26 +121,29 @@ label{
     height: 30px;
     width: 100%;
 }
-
-.fraca{
+.forca{
     height: 30px;
-    width: 25%;
-    background-color: #E71B32;
     position: relative;
     bottom: 30px;
 }
-
+.fraca{
+    width: 25%;
+    background-color: #E71B32;
+}
 .media{
     background-color: #FAF408;
     width: 50%;
-    height: 30px;
-    bottom: 30px;
+}
+.forte{
+    background-color: #00FF85;
+    width: 100%;
 }
 
 .parametro-senha-textos{
     display: flex;
     justify-content: space-between;
 }
+
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
